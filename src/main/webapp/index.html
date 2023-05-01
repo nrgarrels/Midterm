@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="addCarServlet" method="post">
+Make: <input type="text" name = "make">
+Model: <input type="text" name="model">
+Model: <input type="date" name="year">
+Model: <input type="text" name="color">
+<input type = "submit" value="Add Car">
+</form>
+
+<form action="addCarPartServlet" method="post">
+Part Name: <input type="text" name = "name">
+Part Number: <input type="text" name="number">
+<input type = "submit" value="Add Car">
+</form>
+<br />
+
+<a href = "viewAllCarsServlet">View all Cars</a><br />
+<a href = "viewAllCarPartsServlet">View all Car Parts</a><br />
+
+
+</body>
+</html>
